@@ -1,7 +1,7 @@
 ---
 title: "Setting Up a Blog With Hugo"
 date: 2022-08-17T08:20:06-06:00
-draft: true
+draft: false
 ---
 
 # Setting Up A Blog With Hugo
