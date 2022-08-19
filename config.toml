@@ -1,6 +1,6 @@
 baseURL = "https://dereklomax.com"
 languageCode = "en-us"
-title = "Derek is awesome!"
+title = "Neosteno Dereks Website"
 theme = "terminal"
 
 paginate = 5
@@ -58,8 +58,8 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Derek's Blog"
-    subtitle = "A journey with steno, terminals, and fun!"
+    title = "Derek's Website"
+    subtitle = "A journey with steno, neovim, terminals, and fun!"
     owner = "Derek Lomax"
     keywords = ""
     copyright = ""
@@ -72,7 +72,7 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Neosteno >> Dereks blog"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -80,7 +80,7 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+      # [[languages.en.menu.main]]
+      #   identifier = "showcase"
+      #   name = "Showcase"
+      #   url = "/showcase"
