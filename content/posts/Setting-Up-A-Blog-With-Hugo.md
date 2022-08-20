@@ -18,7 +18,7 @@ Install prerequisites:
 - git
 - hugo minimum version of 0.74.x for the terminal theme
 
-```bash
+{{< code language="bash" title="Hugo Setup Commands" id="1" isCollapsed="false" >}}
 # Check version latest version now is: hugo v0.101.0+extended linux/amd64
 hugo version
 
@@ -36,7 +36,7 @@ hugo new posts/Setting-Up-A-Blog-With-Hugo.md
 
 # Start hugo live server
 hugo server -D
-```
+{{< /code >}}
 
 For setting up [hugo live server in WSL](https://www.saotn.org/hugo-development-environment-in-wsl-2/)
 I found this helpful tip to use your WSL IP address.

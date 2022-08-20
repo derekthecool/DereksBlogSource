@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "md": [
+      {
+        "name": "Build and publish hugo website",
+        "command": "./sync_to_website.sh"
+      }
+    ]
+  }
+}
