@@ -40,3 +40,12 @@ benefits of stenography with phrases like these I had to try it.
 
 ### Programming With Stenography
 
+## Ergonomics
+
+```mermaid
+%%{init: {'theme':'dark'}}%%
+pie title Ergonomic Item Importantance
+    "Stenography" : 70
+    "Standing Desk" : 20
+    "No Mouse" : 10
+```
