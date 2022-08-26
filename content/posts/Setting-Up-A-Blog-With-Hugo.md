@@ -6,7 +6,7 @@ draft: false
 
 # Setting Up A Blog With Hugo
 
-It site uses [hugo](hugo) and setup was easy. Following the
+This site uses [hugo](hugo) and setup was easy. Following the
 [hugo quick-start](https://gohugo.io/getting-started/quick-start/) was very
 straight forward and simple.
 
