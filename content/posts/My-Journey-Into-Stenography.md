@@ -75,19 +75,30 @@ and it will take weeks or months before you may have the skill to type an entire
 sentence without looking something up.
 
 Since stenography uses methods such as phonetic phrasing and briefs to create
-words it takes some thinking. Let me share a few words and phrases and the
+words it takes some thinking. Let me share some words and phrases and the
 thoughts you'll need to process to write them.
 
-To write the phrase `Take your vitamin` these consider these thoughts:
+To write the phrase `Take your vitamin` these consider these thoughts you may
+have in an interview with your brain:
 
 ```mermaid
 %%{init: {'theme':'dark'}}%%
 sequenceDiagram
 
-me ->> brain: Does the word 'take' have a brief?
+me ->> brain: Does the word "take" have a brief?
 brain ->> me: No, it should be phonetic
-me ->> brain: How do I form the word take by sounds?
-brain ->> brain: Use a starting 't' 
+me ->> brain: How do I form the word "take" by sounds?
+brain ->> me: Use a starting "t" with a short "a" end ending "k"
+me ->> brain: The short "a" sound just uses the single a key right?
+brain ->> me: Yes, indeed
+me ->> brain: Okay, I got the starting "t" and "a" sounds. Now I need a "k", how do I chord the ending "k" again?
+brain ->> me: Ending "k" sound is made by pressing both "BG"
+me ->> brain: Okay I got it, I'll chord take by pressing TABG keys and then releasing
+
+me ->> brain: Does the word "your" have a brief?
+brain ->> me: No
+me ->> brain: I know that the starting "y" sound is chorded KWR, how do I form the "o" sound?
+brain ->> me: Usually you should use just U, but using OU causes less problems
 ```
 
 ## How Stenography Can Create An Apex Power User
