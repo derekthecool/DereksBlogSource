@@ -35,11 +35,19 @@ paginate = 5
     [languages.en.params.logo]
       logoText = "Neosteno >> Dereks website"
       logoHomeLink = "/"
-    [languages.en.menu]
-      [[languages.en.menu.main]]
+    [menu]
+      [[menu.main]]
+        identifier = "Stenography"
+        name = "Stenography"
+        url = "/Stenography"
+      [[menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
+      [[menu.main]]
+        identifier = "Neovim"
+        name = "Neovim"
+        url = "/Neovim"
 
       # TODO: Portfolio section not working yet!
       # [[languages.en.menu.main]]
