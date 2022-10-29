@@ -29,7 +29,6 @@ how I use a computer and would cause me to never use a normal keyboard again.
 
 I couldn't wait for my son to finish this bottle so I could check this out.
 
-{{< image alt="Moonlander keyboard" position="center" style="border-radius: 18px;" src="https://imgs.search.brave.com/DUVAwv9X3C7uAsQNhax8Kpd1fiIM7UbajPmZ2tdyR5g/rs:fit:655:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/VDdEcDdiNGotbXdL/aFBxQmozbVJRSGFG/WCZwaWQ9QXBp" >}}
 
 The life changing article titled
 [Stenography with ZSA Keyboards: A Tutorial](https://blog.zsa.io/2107-steno-tutorial/)
