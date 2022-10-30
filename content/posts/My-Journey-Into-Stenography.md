@@ -1,6 +1,9 @@
 ---
 title: "My Journey Into Stenography"
 date: 2022-10-18T21:53:10
+image : "https://imgs.search.brave.com/DUVAwv9X3C7uAsQNhax8Kpd1fiIM7UbajPmZ2tdyR5g/rs:fit:655:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/VDdEcDdiNGotbXdL/aFBxQmozbVJRSGFG/WCZwaWQ9QXBp"
+aliases:
+    - /posts/my-journey-into-stenography/
 tags: ['stenography']
 ---
 
@@ -29,6 +32,9 @@ how I use a computer and would cause me to never use a normal keyboard again.
 
 I couldn't wait for my son to finish this bottle so I could check this out.
 
+![ZSA moonlander](https://imgs.search.brave.com/DUVAwv9X3C7uAsQNhax8Kpd1fiIM7UbajPmZ2tdyR5g/rs:fit:655:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/VDdEcDdiNGotbXdL/aFBxQmozbVJRSGFG/WCZwaWQ9QXBp)
+
+{{< featuredImage alt="featured image" width=400 height=300 >}}
 
 The life changing article titled
 [Stenography with ZSA Keyboards: A Tutorial](https://blog.zsa.io/2107-steno-tutorial/)
@@ -90,7 +96,6 @@ have in an interview with your brain:
 (graphs made using [mermaid](https://mermaid-js.github.io/mermaid/#/flowchart))
 
 ```mermaid
-%%{init: {'theme':'dark'}}%%
 sequenceDiagram
 
 me ->> brain: Does the word "take" have a brief?
