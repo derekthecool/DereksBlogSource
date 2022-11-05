@@ -9,8 +9,6 @@ libraries:
 tags: ['stenography']
 ---
 
-# My Journey Into Stenography
-
 Let me share my empowering journey of how I discovered and embraced stenography.
 I have been using steno for all my interactions with a computer for nearly a
 year.

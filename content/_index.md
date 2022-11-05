@@ -27,5 +27,5 @@ header:
     height: 190
     paddingX: 50
     align: center
-    fontSize: 44
+    fontSize: 43
 ---
