@@ -24,7 +24,7 @@ enableAppbarSearchIcon = false
 enableAppbarLangIcon = false
 
 # header
-homeHeaderType = "text" # text, img, slide, typewriter
+homeHeaderType = "typewriter" # text, img, slide, typewriter
 hideHomeHeaderWhenMobile = false
 
 # menu
@@ -38,7 +38,7 @@ enableBreadcrumb = true # breadcrumb for list, single page
 enableSearch = true # site search with Fuse
 enableSearchHighlight = true # when true, search keyword will be highlighted
 enableGoToTop = true # scroll to top
-enableWhoami = true # at the end of single page
+enableWhoami = false # at the end of single page
 summaryShape = "classic" # card, classic, compact
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13 # items per page
@@ -77,7 +77,7 @@ enableSidebarPostsByOrder = false # another lists in the sidebar
 
 # footer
 showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
-showFeedLinks = true # RSS Feed 
+showFeedLinks = false # RSS Feed 
 showSocialLinks = true # email, facebook, twitter ...
 enableLangChange = true # show button at bottom left of footer.
 
@@ -160,11 +160,11 @@ commento = false
   copyrightLinkText = ""
 
 # possible share name: "facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "whatsapp", "telegram"
-[[share]]
-  name = "facebook"
-[[share]]
-  name = "twitter"
-  username = ""
+# [[share]]
+  # name = "facebook"
+# [[share]]
+  # name = "twitter"
+  # username = ""
 
 [[footerLinks]]
   name = ""

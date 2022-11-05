@@ -4,6 +4,8 @@ date: 2022-10-18T21:53:10
 image : "https://imgs.search.brave.com/DUVAwv9X3C7uAsQNhax8Kpd1fiIM7UbajPmZ2tdyR5g/rs:fit:655:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/VDdEcDdiNGotbXdL/aFBxQmozbVJRSGFG/WCZwaWQ9QXBp"
 aliases:
     - /posts/my-journey-into-stenography/
+libraries:
+    - mermaid
 tags: ['stenography']
 ---
 
@@ -31,8 +33,6 @@ mention of adding some new feature. I was not expecting a fundamental change to
 how I use a computer and would cause me to never use a normal keyboard again.
 
 I couldn't wait for my son to finish this bottle so I could check this out.
-
-![ZSA moonlander](https://imgs.search.brave.com/DUVAwv9X3C7uAsQNhax8Kpd1fiIM7UbajPmZ2tdyR5g/rs:fit:655:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/VDdEcDdiNGotbXdL/aFBxQmozbVJRSGFG/WCZwaWQ9QXBp)
 
 {{< featuredImage alt="featured image" width=400 height=300 >}}
 
@@ -101,18 +101,35 @@ sequenceDiagram
 me ->> brain: Does the word "take" have a brief?
 brain ->> me: No, it should be phonetic
 me ->> brain: How do I form the word "take" by sounds?
-brain ->> me: Use a starting "t" with a short "a" and ending "k"
-me ->> brain: The short "a" sound just uses the single a key right and not one like AEU?
-brain ->> me: Yes, indeed just the one for a short "a"
-me ->> brain: Okay, I got the starting "t" and "a" sounds. Now I need a "k", how do I chord the ending "k" again?
+brain ->> me: Use a starting "t" sound with a long "a" and ending "k" sound
+me ->> brain: The long "a" sound uses the keys AEU and not just A right?
+brain ->> me: Yes, indeed AEU for a long "a" sound
+me ->> brain: Okay, I got the starting "t" and long "a" sounds. How do I chord the ending "k" again?
 brain ->> me: Ending "k" sound is made by pressing both "BG"
-me ->> brain: Okay I got it, I'll chord take by pressing TABG keys and then releasing
-
+me ->> brain: Okay I got it, I'll chord take by pressing TAEUBG keys and then releasing
 me ->> brain: Does the word "your" have a brief?
 brain ->> me: No
 me ->> brain: I know that the starting "y" sound is chorded KWR, how do I form the "o" sound?
 brain ->> me: Usually you should use just U, but using OU causes less problems
+me ->> brain: Okay I'll chord it use KWROU + ending R
+me ->> brain: The word vitamin seems simple enough to sound out, let's try
+me ->> brain: How do you chord a starting "v" sound?
+brain ->> me: Use SR
+me ->> brain: Okay then I need a long "i" sound which uses AOEU
+brain ->> me: Don't forget the ending "t" sound
+me ->> brain: Okay I'll chord it with SRAOEUT
+me ->> brain: But I'm not done, I need a min ending chord
+me ->> brain: Starting "m" sound + short "i" vowel + ending "n" sound
+me ->> brain: PH forms the "m" sound, EU forms the "i" sound, how to do ending "n"
+brain ->> me: PB forms the right side "n" sound
+me ->> brain: Okay I'll use PHEUPB making SRAOEUT/PHEUPB for the full word vitamin
 ```
+
+Stroke summary:
+
+- TAEUBG - take
+- KWROUR - your
+- SRAOEUT/PHEUPB - vitamin (the slash shows that it takes two stroke)
 
 To write the phrase `You'll always sound precocious ... supercalifragilisticexpialidocious`
 
@@ -120,9 +137,9 @@ To write the phrase `You'll always sound precocious ... supercalifragilisticexpi
 %%{init: {'theme':'dark'}}%%
 sequenceDiagram
 
-me ->> brain: Does the word "take" have a brief?
+me ->> brain: Does the word "you'll" have a brief?
 brain ->> me: Yes, this one is from Learn Plover! top 100 briefs it is "UL"
-me ->> brain: Okay, I'll stoke "UL"
+me ->> brain: Okay, I'll stroke "UL"
 me ->> brain: Does the word "always" have a brief?
 brain ->> me: Probably... But I bet you could do it phonetically
 me ->> brain: Okay I'll try, let's start with stroking "AUL" like the word all
@@ -137,6 +154,8 @@ me ->> brain: Okay, okay fine. I'll stroke "PHR*UP" to use my Plover lookup
 me ->> brain: Hey look, if I had used "AL" instead of "AUL" I'd have had it!
 me ->> brain: But, look there. I see a brief for always stroked "AULS"
 brain ->> me: Okay, I'll remember that for next time. This word is common.
+me ->> brain: I'll stroke PW-FP to backspace 9 times after doing the Plover lookup
+me ->> brain: Normally you can chord the * key to delete entire words
 me ->> brain: Does the word sound have a brief?
 brain ->> me: No, just phonetic I'm pretty sure
 me ->> brain: Okay let's use starting "s" sound, "ou" middle with "n", and "d"
@@ -154,12 +173,24 @@ brain ->> me: Use you're mapping from emilys-symbols
 me ->> brain: Right, that is perfect. Okay I'll stroke my unique starter SKWH
 me ->> brain: I want a space on both sides of the output so I'll add AO to the stroke
 me ->> brain: Add R to the stroke to get the period, and add T to get three
-me ->> brain: Okay in total I'll stoke "SKWHAORT"
+me ->> brain: Okay in total I'll stroke "SKWHAORT"
 me ->> brain: How on earth will I stroke supercalifragilisticexpialidocious??????
 brain ->> me: Remember, we learned this from typey-type's steno-party-tricks dictionary
 me ->> brain: Oh, right. I've yet to show this off at a party but I remember now
 me ->> brain: I remember the brief sounds like "Sfraj" so stroke like "STPRAPBLG"
 ```
+
+Stroke summary:
+
+- UL - you'll
+- AUL/WAEUS - ~~all ways~~ misstroke (stenography term for a typo or accident)
+- PW-FP - for backspacing
+- AULS - always
+- SOUPBD - sound
+- PRE/KOERBS - precocious
+- SKWHAORT - `...`
+- STPRAPBLG - supercalifragilisticexpialidocious (NOTE: this word is in default
+  Plover dictionary as well)
 
 Referenced links:
 
@@ -233,3 +264,21 @@ sound not very important, but I've never misspelled these words using steno:
 
 If you see someone misspell the word `the`, you may consider kindly
 suggesting stenography to them.
+
+## Summary
+
+Stenography is amazing and I think everyone should use it!
+
+Truths I've found about stenography
+
+- Stenography is not expensive thanks to [Plover](https://www.openstenoproject.org/plover/)
+- Plover is free and Open Source software. You can get started with Plover with
+  the only cost being your keyboard.
+- Plover was started by [Mirabai Knight](http://plover.stenoknight.com/) when
+  she was frustrated with expensive, closed source stenography! Thank you
+  Mirabai for doing something about your frustration and creating Plover!
+- Learning stenography is fun and requires continuous learning
+- Stenography is ergonomic and can ease wrist pain
+
+What are you waiting for, try it out today by reading the guide
+[Beginner's-Guide:-Get-Started-with-Plover](https://github.com/openstenoproject/plover/wiki/Beginner's-Guide:-Get-Started-with-Plover)!
