@@ -1,7 +1,7 @@
 ---
 categories: ['stenography']
-date: '2022-09-03'
-title: "My Stenography Setup"
+date: 2022-09-03
+title: My Stenography Setup
 draft: false
 ---
 

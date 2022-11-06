@@ -1,9 +1,9 @@
 ---
-title: About
-date: 2020-01-30T12:50:46+09:00
-description: Zzo about page
+title: About Derek Lomax & dereklomax.com
+date: 2022-11-05
+description: Derek Lomax about page
 type: about
 ---
 
-# Test
-
+This is my personal website where I write about things I enjoy. Major topics
+include stenography using Plover, Neovim and other tech related items.

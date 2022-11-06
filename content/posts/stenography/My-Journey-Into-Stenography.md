@@ -1,7 +1,7 @@
 ---
-title: "My Journey Into Stenography"
+title: My Journey Into Stenography
 date: 2022-10-18T21:53:10
-image : "https://imgs.search.brave.com/DUVAwv9X3C7uAsQNhax8Kpd1fiIM7UbajPmZ2tdyR5g/rs:fit:655:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/VDdEcDdiNGotbXdL/aFBxQmozbVJRSGFG/WCZwaWQ9QXBp"
+image : https://imgs.search.brave.com/DUVAwv9X3C7uAsQNhax8Kpd1fiIM7UbajPmZ2tdyR5g/rs:fit:655:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/VDdEcDdiNGotbXdL/aFBxQmozbVJRSGFG/WCZwaWQ9QXBp
 aliases:
     - /posts/my-journey-into-stenography/
 libraries:

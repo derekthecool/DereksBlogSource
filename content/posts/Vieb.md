@@ -1,11 +1,8 @@
 ---
-title: "Vieb: the best vim based browser?"
+title: Vieb - The Best Vim Based Browser?
 date: 2022-08-18T21:20:06-06:00
-image: "https://vieb.dev/img/icon.svg"
-draft: false
+image: https://vieb.dev/img/icon.svg
 ---
-
-# Vieb
 
 [Vieb](https://vieb.dev/) is a web browser with vim bindings such as `j` and `k`
 to move up and down. Unlike plugins for popular browsers, this feature is built

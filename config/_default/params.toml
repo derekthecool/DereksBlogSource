@@ -4,8 +4,17 @@ logo = true # Logo that appears in the site navigation bar.
 description = "Derek's website for neovim Plover stenography" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
-useFaviconGenerator = false # https://www.favicon-generator.org/
+useFaviconGenerator = true # https://www.favicon-generator.org/
 languagedir = "ltr" # ltr / rtl
+
+writtenTimeIcon = "📅"
+modifiedTimeIcon = "📝"
+readingTimeIcon = "☕"
+authorIcon = "✍️"
+pagePvIcon = "👀"
+tagIcon = "🏷️"
+publicationIcon = "📚"
+typeIcon = "🎯"
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
@@ -68,7 +77,7 @@ enableListSidebarTitles = true
 enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
 hideToc = false # Hide or Show toc
 tocPosition = "inner" # inner, outer
-tocFolding = true
+tocFolding = false
 enableTocSwitch = true # single page table of contents visibility switch
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
 sidebarPosition = "right" # bio, profile component layout position
@@ -167,8 +176,8 @@ commento = false
   # username = ""
 
 [[footerLinks]]
-  name = ""
-  link = ""
+  name = "Do you see a typo or have any change suggestions? Open a GitHub pull request!"
+  link = "https://github.com/derekthecool/DereksBlogSource"
 [[footerLinks]]
   name = ""
   link = ""

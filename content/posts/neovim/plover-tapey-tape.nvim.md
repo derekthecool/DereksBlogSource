@@ -1,11 +1,8 @@
 ---
-title: "Neovim plugin plover-tapey-tape.nvim"
+title: Neovim Plugin plover-tapey-tape.nvim
 date: 2022-10-14T17:01:27
-image: "https://github.com/derekthecool/plover-tapey-tape.nvim/blob/e5743fdb0d38353732afc716e9adb6affa7864c3/images/plover-tapey-tape-demo1.jpg?raw=true"
-draft: false
+image: https://github.com/derekthecool/plover-tapey-tape.nvim/blob/e5743fdb0d38353732afc716e9adb6affa7864c3/images/plover-tapey-tape-demo1.jpg?raw=true
 ---
-
-# Neovim Plugin plover-tapey-tape.nvim
 
 This is a plugin for neovim to help view the the steno "paper tape" log from the
 Plover plugin [plover tapey tape](https://github.com/rabbitgrowth/plover-tapey-tape).
