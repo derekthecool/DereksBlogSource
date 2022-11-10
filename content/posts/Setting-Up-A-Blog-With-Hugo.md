@@ -61,5 +61,5 @@ option.
 {{< notice info "Note:" >}}
 Hugo is a static site generator which means to deply your website you want to
 share files. There is no need to run the hugo live sever on your web server.
-This live server is he help you in the development process of your website.
+This live server is to help you in the development process of your website.
 {{< /notice >}}

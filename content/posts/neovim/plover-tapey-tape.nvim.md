@@ -11,3 +11,13 @@ Plover plugin [plover tapey tape](https://github.com/rabbitgrowth/plover-tapey-t
 
 See the README.md on [GitHub](https://github.com/derekthecool/plover-tapey-tape.nvim)
 for more details and install information.
+
+<script
+id="asciicast-527205"
+src="https://asciinema.org/a/527205.js"
+async
+data-autoplay="true"
+data-size="big"
+data-loop="1"
+data-startAt="10"
+></script>
