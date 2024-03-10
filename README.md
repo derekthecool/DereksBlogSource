@@ -1,6 +1,16 @@
 # Derek's Blog Source
 
-This blog uses hugo
+This blog uses hugo.
+
+To clone and build this repo:
+
+```sh
+# Recursively clone the repo
+gh repo derekthecool/DereksBlogSource -- --recurse-submodules
+
+# Run the development server in the docker container
+docker compose up -d
+```
 
 ## Content Creation Ideas
 
