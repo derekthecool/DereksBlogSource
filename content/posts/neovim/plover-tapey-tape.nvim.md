@@ -21,3 +21,5 @@ data-size="big"
 data-loop="1"
 data-startAt="10"
 ></script>
+
+More updates coming soon
