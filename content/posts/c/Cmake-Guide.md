@@ -1,4 +1,14 @@
+---
+title: 'Cmake Guide'
+date: 2024-03-12T17:48:16
+image: https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg
+categories: ['c', 'cmake']
+draft: false
+---
+
 # Cmake Guide
+
+{{< featuredImage alt="Cmake image" >}}
 
 ## Personal Motivation
 
