@@ -9,6 +9,8 @@ draft: false
 
 # C Programming
 
+{{< featuredImage alt="C programming image" >}}
+
 These notes are my working document to C programming. It includes basic concepts
 and documentation on items of interest to me.
 

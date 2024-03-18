@@ -9,6 +9,8 @@ draft: false
 
 # Using Lua In C Programming
 
+{{< featuredImage alt="Lua programming image" >}}
+
 This guide is a work in progress. I'm writing my notes as I work on using lua in
 my projects.
 
