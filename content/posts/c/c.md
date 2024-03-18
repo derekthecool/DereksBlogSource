@@ -1,11 +1,23 @@
-# C Code
+---
+title: 'C Programming'
+date: 2024-03-12T17:48:16
+image: https://upload.wikimedia.org/wikipedia/commons/archive/3/35/20220802133510%21The_C_Programming_Language_logo.svg
+categories:
+  - 'C'
+draft: false
+---
+
+# C Programming
+
+These notes are my working document to C programming. It includes basic concepts
+and documentation on items of interest to me.
 
 ## Style
 
-Bryan at Freeus shared this nice embedded C coding
-[standard](https://barrgroup.com/sites/default/files/barr_c_coding_standard_2018.pdf)
-
-It is pretty nice!
+This nice embedded C coding
+[standard](https://barrgroup.com/sites/default/files/barr_c_coding_standard_2018.pdf).
+It really helps to use tools such as [clangformat](https://clang.llvm.org/docs/ClangFormat.html)
+to help with automatic formatting.
 
 ## Libraries Vs Executables
 
