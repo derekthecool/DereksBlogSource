@@ -47,3 +47,7 @@ googleAnalytics = ""
   category = "categories"
   tag = "tags"
   series = "series"
+
+[params.adsense]
+client = "ca-pub-3646682073191297"
+inArticleSlot = "3376795117"
