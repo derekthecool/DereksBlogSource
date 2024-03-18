@@ -45,6 +45,8 @@ hugo new posts/Setting-Up-A-Blog-With-Hugo.md
 hugo server -D
 ```
 
+<!--adsense-->
+
 For setting up [hugo live server in WSL](https://www.saotn.org/hugo-development-environment-in-wsl-2/)
 I found this helpful tip to use your WSL IP address.
 
