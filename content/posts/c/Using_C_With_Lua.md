@@ -1,4 +1,18 @@
+---
+title: 'Using C With Lua'
+date: 2024-03-18T10:38:23
+image: https://commons.wikimedia.org/wiki/File:Lua-Logo.svg
+categories:
+  - lua
+draft: false
+---
+
 # Using Lua In C Programming
+
+This guide is a work in progress. I'm writing my notes as I work on using lua in
+my projects.
+
+## Helpful Resources
 
 Online resources:
 
