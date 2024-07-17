@@ -1,4 +1,5 @@
 services:
+  # Deployed website
   hugo:
     image: jakejarvis/hugo-extended:latest
     restart: unless-stopped
@@ -6,4 +7,15 @@ services:
       - 1313:1313
     volumes:
       - ./:/src
-    command: server --baseURL=dereklomax.com --buildDrafts --buildFuture --bind 0.0.0.0 --appendPort=false
+    command: server --baseURL=dereklomax.com --buildFuture --bind 0.0.0.0 --appendPort=false
+
+  # Easy development with docker or podman
+  # Default file watching does not work with containers, use the --poll option for easy hot reload
+  development:
+    image: jakejarvis/hugo-extended:latest
+    restart: unless-stopped
+    ports:
+      - 1313:1313
+    volumes:
+      - ./:/src
+    command: server --buildDrafts --buildFuture --bind 0.0.0.0 --poll 700ms
