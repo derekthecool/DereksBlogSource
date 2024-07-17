@@ -1,6 +1,7 @@
 services:
   hugo:
     image: jakejarvis/hugo-extended:latest
+    restart: unless-stopped
     ports:
       - 1313:1313
     volumes:
