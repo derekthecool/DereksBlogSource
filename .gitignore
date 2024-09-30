@@ -20,3 +20,4 @@ hugo.linux
 
 # Ignore my rsync script that pushes files to my website
 sync_to_website.sh
+*s.txt
