@@ -1,7 +1,7 @@
 ---
 title: "Asciiquarium"
 date: 2024-07-17T10:06:34
-categories: ['terminal']
+categories: ["terminal"]
 image: https://imgs.search.brave.com/SffeYBma4ibmGOnt7jpySkGa-HB0qWFxx5NsyROabE0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnNz/dGF0aWMubmV0LzIx/UzlGLnBuZw
 draft: true
 ---
